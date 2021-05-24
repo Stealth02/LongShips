@@ -1,0 +1,106 @@
+{
+  "hullName": "Long Atlas",
+  "hullId": "ls_longatlas",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/longatlas.png",
+  "style": "LOW_TECH",
+  "height": 960,
+  "width": 166,
+  "center": [83, 480],
+  "collisionRadius": 493,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 537.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [444, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [444, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": -90,
+      "locations": [-407.5, -72.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": 90,
+      "locations": [-407.5, 72.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-475.5, -31.5],
+      "length": 155.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-475.5, 31.5],
+      "length": 155.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-478.5, -17.5],
+      "length": 209.5,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-478.5, 17.5],
+      "length": 209.5,
+      "width": 29,
+      "angle": -180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-480, -0],
+      "length": 308.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    466, 23.5,
+    424, 62.5,
+    -367, 63.5,
+    -410, 73.5,
+    -459, 42.5,
+    -459, -42.5,
+    -410, -73.5,
+    -367, -63.5,
+    424, -62.5,
+    466, -23.5
+  ]
+}
