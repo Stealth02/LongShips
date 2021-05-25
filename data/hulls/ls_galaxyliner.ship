@@ -1,0 +1,222 @@
+{
+  "hullName": "Galaxyliner",
+  "hullId": "ls_galaxyliner",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/longstarliner.png",
+  "style": "MIDLINE",
+  "height": 450,
+  "width": 126,
+  "center": [63, 222.5],
+  "collisionRadius": 227.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 221.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 55,
+      "locations": [-5.5, 47]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -55,
+      "locations": [-4.5, -47]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-101.5, 46]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-101.5, -46]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 120,
+      "locations": [-162.5, 37]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 240,
+      "locations": [-162.5, -37]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 150,
+      "locations": [-38.5, 54]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 210,
+      "locations": [-38.5, -53]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -55,
+      "locations": [148.5, -46.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 55,
+      "locations": [148.5, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 150,
+      "locations": [118.5, 52]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -150,
+      "locations": [118.5, -52]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-217.5, 19],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-217.5, 0],
+      "length": 96,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-217.5, -18],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 96,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-194.5, 39],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-194.5, -38],
+      "length": 24,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-215.5, 26],
+      "length": 24,
+      "width": 6,
+      "angle": 170,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-215.5, -25],
+      "length": 24,
+      "width": 6,
+      "angle": 190,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    211, 0.5,
+    167, -55.5,
+    136.5, -57,
+    108, -39.5,
+    55, -39.5,
+    38.5, -51,
+    15.5, -39,
+    10.5, -56,
+    -28.5, -54,
+    -47.5, -41,
+    -79.5, -41,
+    -86.5, -51,
+    -107.5, -50,
+    -147.5, -34,
+    -157.5, -50,
+    -186.5, -50,
+    -214.5, -23,
+    -214.5, 24,
+    -186.5, 51,
+    -156.5, 51,
+    -147.5, 35,
+    -107.5, 51,
+    -86.5, 52,
+    -79.5, 42,
+    -47.5, 42,
+    -28.5, 55,
+    10.5, 57,
+    15.5, 39,
+    38.5, 50.5,
+    48, 40,
+    106, 39,
+    109.5, 47,
+    126.5, 57,
+    165, 58,
+    182, 37.5
+  ]
+}
